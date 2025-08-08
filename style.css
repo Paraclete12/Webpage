@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333131;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(68, 32, 68);
+    color: white;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    color:rgb(151, 100, 151)
+}
+
+.about img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about div {
+    max-width: 500px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(14, 1, 14);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: rgb(88, 9, 145);
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socials ul {
+    list-style: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.socials a {
+    font-size: 2rem;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: rgba(65, 13, 102, 0.26);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(22, 3, 22);
+    color: rgba(255, 255, 255, 0.548);
+    margin-top: 20px;
+}
