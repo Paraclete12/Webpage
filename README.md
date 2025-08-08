@@ -1,2 +1,2 @@
 # Webpage
-A simple portfolio 2 pages webpage with submission button.
+A simple portfolio with a 2 pages webpage and a submission button.
